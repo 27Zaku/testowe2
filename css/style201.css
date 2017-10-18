@@ -1,0 +1,23 @@
+nav {
+	background-color: blue;
+}
+
+body {
+	height: 4000px;
+}
+
+.is-hidden {
+	position: fixed !important;
+	top: 0;
+    opacity: 0;
+    transform: translate(0,-60px);
+    transition: opacity 1s, transform 2s !important;
+}
+  
+.is-visible {
+	position: fixed !important;
+	top: 0;
+    opacity: 1;
+    transform: translate(0,0);
+    transition: opacity 1s, transform 2s !important;
+}
